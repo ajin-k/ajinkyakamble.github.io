@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Sep, 2018, 6:34:28 PM
+    Author     : Ajinkya
+*/
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.bgimage{
+    background-image: url("images/welcome3.png");
+    
+    /* full height*/
+    height:100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+hr{ 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.imagelinkes:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+}
+
+.imgtext{
+    opacity: 1;
+}
